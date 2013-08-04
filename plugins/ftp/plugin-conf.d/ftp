@@ -1,0 +1,10 @@
+[proftpd-rel]
+	user root
+	env.logfile /var/log/xferstat
+	env.logtail /usr/bin/logtail
+	env.statedir /var/lib/munin-node/plugin-state
+
+#	[vsftpd-rel]
+#		user root
+#		env.logfile /var/log/vsftpd.log
+#		env.logtail /usr/bin/logtail
